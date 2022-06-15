@@ -1,0 +1,49 @@
+body{
+    display:flex;
+    flex-direction: column;
+    
+    /* if we want 100% view height */
+    /* height: 100vh; */
+    
+}
+
+.top{
+    background-color: darkblue;
+    color:white;
+    display:flex;
+    flex-grow:1;
+}
+
+.information{
+    background-color: rgb(255, 255, 255);
+    display:flex;
+    flex-grow:1;
+}
+
+.quote{
+    background-color: rgb(180, 180, 180);
+    display:flex;
+    flex-grow:1;
+}
+
+.bottom{
+    background-color: rgb(255, 255, 255);
+    display:flex;
+    flex-grow:1;
+}
+
+.footer{
+    background-color: darkblue;
+    color:white;
+    display:flex;
+    
+    flex-grow:1;
+}
+
+
+
+a{
+    color:yellow;
+    font-family: Helvetica;
+    text-decoration: none;
+}

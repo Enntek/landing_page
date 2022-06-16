@@ -3,48 +3,36 @@ body{
     font-size:18px;
     display:flex;
     flex-direction: column;
-
-    
-    
     /* if we want 100% view height */
     /* height: 100vh; */
     
 }
 
-/* body>*{    border:5px solid green;} */
-/* body>*>*{    border:1px solid red;} */
+
 
 .top{
     background-color: #1F2937;
-    
     color:white;
     display:flex;
     flex-direction:column;
     padding: 20px 200px 100px;
-    /* align-items:center; */
+    align-items:center;
 }
 
 .header{
-    max-width: 1040px;
-    min-width: 700px;
-    font-size:24px;
-    display:flex;
-    font-weight:900;
-    flex:1;
-    justify-content: space-between;
-    align-items:center;
+    width: 1040px;
     margin-bottom: 52px;
-    
+    display:flex;
+    align-items:center;
 }
 
-.top .header{
-    
+.header .title{
+    font-size:24px;
+    font-weight:900;
 }
 
 .under-header{
-    
     display:flex;
-    
 }
 
 .under-header .large{
@@ -52,13 +40,11 @@ body{
     font-weight:700;
     padding:0;
     margin:0;
-
 }
 
 .under-header .small{
     padding-right:70px;
     margin:10px 0 15px;
-
 }
 
 
@@ -66,22 +52,15 @@ body{
     /* background-color: aqua; */
     width:520px;
     height:230px;
-    
-    
-
     display:flex;
     flex-direction: column;
     flex-shrink:0;
-
 }
 
 .img-placeholder{
     background-color: rgb(119, 124, 129);
     width:520px;
     height:230px;
-    
-    
-
     display:flex;
     flex-shrink:0;
     justify-content: center;
@@ -91,11 +70,9 @@ body{
 .body1{
     background-color: rgb(255, 255, 255);
     padding: 24px 32px 50px;
-
     display:flex;
     flex-direction: column;
     align-items:center;
-
 }
 
 .body1 .title{
@@ -113,13 +90,9 @@ body{
     display:flex;
     flex-direction:column;
     align-items: center;
-
-    /* border:1px solid black; */
-    
     text-align: center;
     width: 160px;
     margin: 25px 25px;
-    
 }
 
 .bluebox{
@@ -129,12 +102,10 @@ body{
     border-radius: 15px;
     /* border:5px lightskyblue; */
     border:5px solid #3882F6;
-
 }
 
 .img-text-box .subtext{
     color:#5a5b5f;
-
 }
 
 .body2{
@@ -146,15 +117,12 @@ body{
 
 .body2 .quote-box{
     width: 800px;
-    /* border: 1px solid black; */
-
 }
 
 .body2 .quote-text{
     /* font-size:34px; */
     font: italic 35px/45px Georgia;
     color:#3c3d41;
-
 }
 
 .body2 .quote-end{
@@ -164,16 +132,51 @@ body{
     text-align: right;
 }
 
-.bottom{
+.body3{
     background-color: white;
     display:flex;
+    justify-content: center;
+    padding:50px;
+}
+
+.body3 .bluebox{
+    background-color: #3882F6;
+    padding:42px;
+    height:55px;
+    width: 920px;
+    border-radius: 10px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.body3 .title{
+    font: bold 24px Helvetica;
+    color:white;
+}
+
+.body3 .subtext{
+    margin-top: 6px;
+    color:white;
+}
+
+.body3 button{
+    color:white;
+    background-color: #3882F6;
+    height: 35px;
+    width: 120px;
+    font-size: 17px;
+    font-weight: 800;
+    border: 2px solid white;
+    border-radius: 7px;
 }
 
 .footer{
     background-color: #1F2937;
     color:white;
-    display:flex;
     
+    text-align: center;
+    padding:48px;
 }
 
 
@@ -185,7 +188,6 @@ a{
     font-weight:normal;
     text-decoration: none;
     margin-left:20px;
-
 }
 
 .links{

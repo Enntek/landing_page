@@ -137,9 +137,31 @@ body{
 
 }
 
-.quote{
-    background-color: rgb(180, 180, 180);
+.body2{
+    background-color: rgb(221, 221, 230);
     display:flex;
+    justify-content: center;
+    padding:100px 32px;
+}
+
+.body2 .quote-box{
+    width: 800px;
+    /* border: 1px solid black; */
+
+}
+
+.body2 .quote-text{
+    /* font-size:34px; */
+    font: italic 35px/45px Georgia;
+    color:#3c3d41;
+
+}
+
+.body2 .quote-end{
+    font-size: 29px;
+    font-weight: 900;
+    padding-right:70px;
+    text-align: right;
 }
 
 .bottom{
